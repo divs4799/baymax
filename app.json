@@ -1,6 +1,7 @@
 {
   "expo": {
-    "name": "loginAuth",
+    "name": "Baymax",
+    "displayName": "Baymax",
     "slug": "loginAuth",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,12 +20,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.baymax.chatbot"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "659938b1-4753-408a-9ace-6c4bf1322bdd"
+      }
     }
   }
 }
