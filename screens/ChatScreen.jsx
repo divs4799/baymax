@@ -24,7 +24,7 @@ export function ChatScreen({navigation,route}) {
   
   
   
-  const apiKey="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";
+  const apiKey="";
   // const apiUrl="https://api.openai.com/v1/engines/text-davinci-002/completions";
   
   const getReply = async(message)=>{
